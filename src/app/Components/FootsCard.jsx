@@ -4,7 +4,7 @@ import React from 'react';
 const FootsCard = ({foots}) => {
     const {dish_name,category,image_link}= foots
     return (
-      <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="card bg-base-100  shadow-sm">
   <figure>
    <Image height={300} width={300} src={image_link} alt='Internet Problem' ></Image>
   </figure>
